@@ -1,0 +1,43 @@
+* {
+  margin: auto;
+  /* padding: 10px; */
+  box-sizing: border-box;
+  background: rgb(96, 87, 238);
+  background: linear-gradient(to bottom, cyan, darkblue, black);
+}
+.boat {
+  position: fixed;
+  bottom: 10px;
+  left: 85%;
+  height: 150px;
+  background: transparent;
+}
+
+.treasure{
+  position: fixed;
+  bottom: 10px;
+  right: 85%;
+  height: 150px;
+  background: transparent;
+}
+
+.canvadivi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+#canvas1 {
+  width: 1040;
+  height: 650px;
+  background: linear-gradient(to bottom, cyan, darkblue, black);
+}
