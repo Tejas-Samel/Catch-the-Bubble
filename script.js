@@ -286,7 +286,7 @@ const BG = {
     x2: canvas.width,
     y: 0,
     width: canvas.width,
-    height: canvas.height
+    height: 100
 }
 
 
@@ -294,7 +294,7 @@ const BG = {
 
 //Background
 const background = new Image();
-background.src = "./assets/Images/background1.png";
+background.src = "./assets/Images/sky.png";
 
 //bg mountains
 const mountain = new Image();
